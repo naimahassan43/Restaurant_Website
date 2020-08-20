@@ -1,0 +1,361 @@
+/*========== Extra small devices (portrait phones, less than 576px)========== */
+
+@media (max-width: 575.98px) { 
+/*header start*/
+.banner{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.b_center h1{
+  font-size: 20px;
+}    
+ 
+.b_buttons a{
+  display: block;
+  margin-top: 12px;
+} 
+.btn_2{
+
+}  
+/*header end*/
+
+/*about section start*/
+.about, .mn_sec, .contact{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.left{
+     margin-top: 0px !important;
+  }
+.ab_cont{
+  margin-bottom: 40px !important;
+}
+.resv_cont h1, .ab_cont h1{
+  font-size: 22px !important; 
+ }
+.ab_cont p{
+  word-spacing: 1px !important;
+  letter-spacing: 0px !important;
+  margin-top: 22px !important;
+
+}
+/*about section end*/
+
+/*Ingredients section Start*/
+
+.cont_3, .right_ingr{
+  padding: 20px 0px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+ .rev_cont h1, .ingr_cont h1{
+  font-size: 22px !important;
+  margin-bottom: 10px;
+}
+
+.ingr_cont p{
+
+  word-spacing: 0px !important;
+  letter-spacing: 0px !important;
+  margin-top: 12px !important;
+  margin-bottom: 0px !important;
+
+}
+/*Ingredients section end */
+
+/*Menu start*/
+.menu_cont{
+  margin-bottom: 18px !important;
+  margin-top: 8px;
+}
+.s_head h3{
+  font-size: 19px !important;  
+}
+
+.s_cont{
+  margin-bottom: 18px !important;
+}
+.s_cont p{
+  letter-spacing: 0px !important;
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
+}
+/*Menu end*/
+
+/*Review section start*/
+
+.rev_cont{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.rev_cont1{
+  margin-top: 10px;
+}
+.rev_cont1 p{
+  word-spacing: 1px !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+
+}
+
+/*Review section end */
+
+/*contact us section start*/
+
+.r_cont p{
+
+  word-spacing: 1px !important;
+}
+
+/*contact us section end*/
+/*footer start*/
+.f_1 {
+    margin: 20px 0;
+}
+.f_1 h3 {
+  font-size: 19px !important;
+  margin-bottom: 5px;
+}
+.f_1 p {
+	line-height: 1.2 !important;
+	word-spacing: 1px !important;
+	letter-spacing: 1px !important;
+	margin-top: 10px;
+}
+.crd_img, .soc_icon {
+   margin-top: 10px;
+}
+
+/*footer end*/
+}
+ /*========== Small devices (landscape phones, 576px and up)========== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.b_center h1{
+  font-size: 38px;
+}     
+.b_buttons {
+    margin-top: 18px;
+}   
+/*header end*/
+/*about section start*/
+.about, .mn_sec, .contact{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.left{
+     margin-top: 0px !important;
+  }
+.ab_cont{
+  margin-bottom: 40px !important;
+}
+.resv_cont h1, .ab_cont h1{
+  font-size: 38px !important; 
+ }
+.ab_cont p{
+  word-spacing: 1px !important;
+  letter-spacing: 1px !important;
+  margin-top: 28px !important;
+
+}
+/*about section end*/
+/*Ingredients section Start*/
+
+.cont_3, .right_ingr{
+   padding: 30px 0px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+ .rev_cont h1, .ingr_cont h1{
+  font-size: 38px !important;
+  margin-bottom: 28px;
+}
+
+.ingr_cont p{
+
+  word-spacing: 1px !important;
+  letter-spacing: 1px !important;
+  margin-top: 28px !important;
+  margin-bottom: 28px !important;
+
+}
+/*Ingredients section end */
+/*Menu start*/
+.menu_cont{
+  margin-bottom: 20px !important;
+  margin-top: 10px;
+}
+.s_head h3{
+  font-size: 30px !important;  
+}
+
+.s_cont{
+  margin-bottom: 22px !important;
+}
+.s_cont p{
+  letter-spacing: 1px !important;
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+}
+/*Menu end*/
+/*Review section start*/
+
+.rev_cont1{
+  margin-top: 15px;
+}
+.rev_cont1 p{
+  word-spacing: 3px !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+
+}
+
+/*Review section end */
+/*footer start*/
+.f_1 {
+    margin: 15px 0;
+}
+.f_1 h3 {
+  margin-bottom: 10px;
+}
+
+/*footer end*/
+
+}
+
+ /*========== Medium devices (tablets, 768px and up)======= */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header start*/
+.b_center h1{
+  font-size: 48px;
+}    
+/*header end*/
+/*about section start*/
+.about, .mn_sec, .contact{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.left{
+    margin-top: 15px;
+  }
+
+.resv_cont h1, .ab_cont h1{
+  font-size: 32px !important; 
+ }
+.ab_cont p{
+  word-spacing: 1px !important;
+  letter-spacing: 1px !important;
+  margin-top: 12px !important;
+
+}
+/*about section end*/
+/*Ingredients section Start*/
+
+.cont_3, .right_ingr{
+   padding: 40px 0px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+ .rev_cont h1, .ingr_cont h1{
+  font-size: 32px !important;
+  margin-bottom: 15px;
+}
+
+.ingr_cont p{
+
+  word-spacing: 3px !important;
+  letter-spacing: 1px !important;
+  margin-top: 15px !important;
+  margin-bottom: 24px !important;
+
+}
+/*Ingredients section end */
+/*Menu start*/
+.menu_cont{
+  margin-bottom: 25px !important;
+  margin-top: 15px;
+}
+.s_head h3{
+  font-size: 30px !important;  
+}
+
+.s_cont{
+  margin-bottom: 22px !important;
+}
+.s_cont p{
+  letter-spacing: 1px !important;
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+}
+/*Menu end*/
+/*Review section start*/
+
+.rev_cont1{
+  margin-top: 20px;
+}
+.rev_cont1 p{
+  word-spacing: 5px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+
+}
+/*Review section end */
+/*footer start*/
+.f_1 {
+    margin: 20px 0;
+}
+.f_1 h3 {
+
+  margin-bottom: 15px;
+}
+.f_1 p {
+
+    word-spacing: 5px !important;
+    letter-spacing: 2px !important;
+}
+.crd_img, .soc_icon {
+   margin-top: 10px;
+}
+/*footer end*/
+}
+
+
+ /*========== Large devices (desktops, 992px and up) ==========*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+/*header start*/
+.b_center h1{
+  font-size: 70px;
+}    
+/*header end*/
+/*about start*/
+.dish_img{
+	margin: 30px 0;
+}
+/*about end*/
+/*footer start*/
+.f_1 {
+    margin: 20px 0;
+}
+
+.f_1 p {
+    word-spacing: 2px !important;
+    letter-spacing: 0px !important;
+}
+.crd_img, .soc_icon {
+   padding: 3px;
+}
+/*footer end*/
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+}

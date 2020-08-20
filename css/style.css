@@ -1,0 +1,291 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+}
+
+/*Header Start*/
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)), url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c_navbar button i{
+   font-size: 30px;
+   color: #fff !important;
+}
+.menu ul li a{
+  font-family: 'Gentium Basic', serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff !important;
+  text-transform: capitalize;
+  padding-right: 20px !important;
+  transition: .3s;
+}
+.menu ul li:last-child a{
+  padding-right: 0 !important;
+}
+.menu ul li a:hover{
+  color: #c19f39 !important;
+}
+.menu ul li a i{
+  color: #c19f39 !important;
+} 
+.menu ul li a:hover i{
+  color: #fff !important;
+  background-color: transparent !important;
+} 
+.banner{
+  padding: 120px 0;
+}
+
+.b_center h1{
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 74px;
+}
+.b_buttons{
+  margin-top: 25px;
+  text-align: center;
+  align-items: center;
+}
+.b_buttons a{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400 !important;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff!important;
+  text-align: center;
+}
+.b_buttons a:hover{
+  color: #cc9900 !important;
+  background: transparent;
+  text-decoration: none; 
+}
+.btn_1{
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.6);
+}
+.btn_2{
+  border: 1px solid white;
+  background-color: rgba(252,251,252,0.3);
+}
+
+/*Header End*/
+
+/*about section start*/
+.about, .mn_sec, .contact{
+  padding-top: 70px;
+  padding-bottom: 60px;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.left{
+      margin-top: 25px;
+  }
+.ab_cont{
+  margin-bottom: 40px !important;
+}
+.resv_cont h1, .ab_cont h1{
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400 !important;
+  font-size: 36px !important; 
+  color: #cc9900;
+ }
+.ab_cont p{
+  color: #4c4c4c;
+  line-height: 1.5 !important;
+  word-spacing: 5px !important;
+  letter-spacing: 1px !important;
+  margin-top: 30px !important;
+}
+.s_img{
+  margin-left: 55px;
+}
+
+/*about section end*/
+
+/*Ingredients section Start*/
+
+.ingredients{
+  background-image: url(../images/background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right_ingr{
+  width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 50px 0px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.cont_2{
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+ .rev_cont h1, .ingr_cont h1{
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400 !important;
+  font-size: 36px !important;
+  margin-bottom: 20px;
+}
+
+.ingr_cont p{
+  word-spacing: 2px !important;
+  margin-top: 30px !important;
+  margin-bottom: 40px !important;
+
+}
+
+/*Ingredients section end */
+
+/*Menu start*/
+.menu_cont{
+  margin-bottom: 40px !important;
+}
+.s_head{
+  border-bottom: 1px solid #c89f2d;
+}
+.s_head h3{
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400 !important;
+  font-size: 21px !important; 
+  color: #c89f2d;
+  
+}
+
+.s_cont{
+  margin-bottom: 40px !important;
+}
+.s_cont p{
+  letter-spacing: 1px !important;
+  margin-top: 20px !important;
+  color: #4c4c4c;
+}
+/*Menu end*/
+
+/*Review section start*/
+
+.review{
+  background-image: url(../images/background2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cont_3{
+  width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 50px 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.rev_cont{
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.rev_cont1{
+  margin-top: 30px;
+}
+.rev_cont1 p{
+  word-spacing: 5px !important;
+  margin-top: 30px !important;
+  margin-bottom: 40px !important;
+
+}
+.rev_ft{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+/*Review section end */
+
+/*contact us section start*/
+
+.resv_cont{
+  width: 100%;
+}
+.r_cont{
+ 
+  margin-top: 10px !important;
+}
+.r_cont p{
+
+  color: #4c4c4c;
+  word-spacing: 5px !important;
+}
+form{
+  padding: 5px 0;
+}
+form label{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700 !important;
+  color: #c9a131;
+}
+.c_btn{
+  margin-top: 20px;
+}
+.c_btn a{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400 !important;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff!important;
+  background-color: #cc9900;
+  text-align: center;
+  border: none;
+}
+.c_btn a:hover{
+  background-color: rgba(0,0,0,0.6) !important;
+  text-decoration: none; 
+  border: 1px solid black;
+}
+
+/*contact us section end*/
+
+/*footer start*/
+footer{
+  background-color: #191919;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.f_1 h3{
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400 !important;
+  font-size: 21px !important;  
+  margin-bottom: 20px; 
+}
+
+.f_1 p{
+  word-spacing: 3px !important;
+  letter-spacing: 1px !important;
+  margin-top: 20px;
+}
+
+.crd_img, .soc_icon{
+  margin-top: 40px;
+}
+.soc_icon i{
+  padding: 0 5px;
+}
+.soc_icon i:hover{
+   color: #c19f39 !important;
+}
+/*footer end*/
