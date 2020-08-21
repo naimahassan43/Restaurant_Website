@@ -237,6 +237,11 @@ form label{
   font-weight: 700 !important;
   color: #c9a131;
 }
+.cs_form:focus{
+  outline: none;
+  border: 1px solid #cc9900;
+  box-shadow: none;
+}
 .c_btn{
   margin-top: 20px;
 }
