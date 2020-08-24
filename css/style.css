@@ -36,20 +36,18 @@ header{
 .menu ul li a i{
   color: #c19f39 !important;
 } 
-
+.menu a:hover .t_blue {
+  color: #00acee !important;
+}
 .menu a:hover .blue {
   color: #3b5998 !important;
 }
 .menu a:hover .red {
   color: #c4302b !important;
 }
-.menu a:hover .t_blue {
-  color: #00acee !important;
-}
 .banner{
   padding: 120px 0;
 }
-
 .b_center h1{
   font-family: 'Yeseva One', cursive;
   font-weight: 400;
@@ -87,7 +85,6 @@ header{
   border: 1px solid white;
   background-color: rgba(252,251,252,0.3);
 }
-
 /*Header End*/
 
 /*about section start*/
@@ -98,7 +95,6 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 .left{
       margin-top: 25px;
@@ -133,7 +129,6 @@ header{
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .right_ingr{
   width: 100%;
   background-color: rgba(0, 0, 0, .7);
@@ -146,19 +141,16 @@ header{
   margin-top: 10px;
   margin-bottom: 15px;
 }
-
  .rev_cont h1, .ingr_cont h1{
   font-family: 'Yeseva One', cursive;
   font-weight: 400 !important;
   font-size: 36px !important;
   margin-bottom: 20px;
 }
-
 .ingr_cont p{
   word-spacing: 2px !important;
   margin-top: 30px !important;
   margin-bottom: 40px !important;
-
 }
 
 /*Ingredients section end */
@@ -175,9 +167,7 @@ header{
   font-weight: 400 !important;
   font-size: 21px !important; 
   color: #c89f2d;
-  
-}
-
+  }
 .s_cont{
   margin-bottom: 40px !important;
 }
@@ -196,7 +186,6 @@ header{
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .cont_3{
   width: 100%;
   background-color: rgba(0, 0, 0, .7);
@@ -217,7 +206,6 @@ header{
   word-spacing: 5px !important;
   margin-top: 30px !important;
   margin-bottom: 40px !important;
-
 }
 .rev_ft{
   font-family: 'Lato', sans-serif;
@@ -235,7 +223,6 @@ header{
   margin-top: 10px !important;
 }
 .r_cont p{
-
   color: #4c4c4c;
   word-spacing: 5px !important;
 }
@@ -272,7 +259,6 @@ form label{
   text-decoration: none; 
   border: 1px solid black;
 }
-
 /*contact us section end*/
 
 /*footer start*/
@@ -287,13 +273,11 @@ footer{
   font-size: 21px !important;  
   margin-bottom: 20px; 
 }
-
 .f_1 p{
   word-spacing: 3px !important;
   letter-spacing: 1px !important;
   margin-top: 20px;
 }
-
 .crd_img, .soc_icon{
   margin-top: 40px;
 }
