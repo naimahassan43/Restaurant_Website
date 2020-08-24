@@ -98,6 +98,7 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 .left{
       margin-top: 25px;
@@ -157,6 +158,7 @@ header{
   word-spacing: 2px !important;
   margin-top: 30px !important;
   margin-bottom: 40px !important;
+
 }
 
 /*Ingredients section end */
@@ -172,8 +174,10 @@ header{
   font-family: 'Yeseva One', cursive;
   font-weight: 400 !important;
   font-size: 21px !important; 
-  color: #c89f2d;  
+  color: #c89f2d;
+  
 }
+
 .s_cont{
   margin-bottom: 40px !important;
 }
@@ -322,5 +326,3 @@ footer{
   outline: 0;
 }
 /*footer end*/
-
-
