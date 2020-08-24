@@ -24,6 +24,7 @@ header{
   color: #fff !important;
   text-transform: capitalize;
   padding-right: 20px !important;
+  cursor: pointer;
   transition: .3s;
 }
 .menu ul li:last-child a{
@@ -35,10 +36,16 @@ header{
 .menu ul li a i{
   color: #c19f39 !important;
 } 
-.menu ul li a:hover i{
-  color: #fff !important;
-  background-color: transparent !important;
-} 
+
+.menu a:hover .blue {
+  color: #3b5998 !important;
+}
+.menu a:hover .red {
+  color: #c4302b !important;
+}
+.menu a:hover .t_blue {
+  color: #00acee !important;
+}
 .banner{
   padding: 120px 0;
 }
@@ -62,11 +69,15 @@ header{
   outline: none;
   color: #fff!important;
   text-align: center;
+  cursor: pointer;
 }
 .b_buttons a:hover{
-  color: #cc9900 !important;
+  color: #fff !important;
   background: transparent;
   text-decoration: none; 
+}
+.b_buttons a:focus{
+  outline: 0;
 }
 .btn_1{
   border: 1px solid black;
@@ -147,7 +158,6 @@ header{
   word-spacing: 2px !important;
   margin-top: 30px !important;
   margin-bottom: 40px !important;
-
 }
 
 /*Ingredients section end */
@@ -163,10 +173,8 @@ header{
   font-family: 'Yeseva One', cursive;
   font-weight: 400 !important;
   font-size: 21px !important; 
-  color: #c89f2d;
-  
+  color: #c89f2d;  
 }
-
 .s_cont{
   margin-bottom: 40px !important;
 }
@@ -239,7 +247,6 @@ form label{
 }
 .cs_form:focus{
   outline: none;
-  border: 1px solid #cc9900;
   box-shadow: none;
 }
 .c_btn{
@@ -293,4 +300,28 @@ footer{
 .soc_icon i:hover{
    color: #c19f39 !important;
 }
+.soc_icon a{
+  padding: 0 5px;
+  outline: none;
+  color: #fff!important;
+  text-align: center;
+  cursor: pointer;
+}
+.soc_icon a:hover .blue {
+  color: #3b5998 !important;
+}
+.soc_icon a:hover .red {
+  color: #c4302b !important;
+}
+.soc_icon a:hover .t_blue {
+  color: #00acee !important;
+}
+.soc_icon a:hover .g_pl {
+  color: #db4a39 !important;
+}
+.soc_icon a:focus{
+  outline: 0;
+}
 /*footer end*/
+
+
